@@ -1,0 +1,5 @@
+*.pyc
+*.swp
+*.swo
+django_on_fire.egg-info/
+dist/

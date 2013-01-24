@@ -83,6 +83,7 @@ Be sure to take these steps to make your django-on-fire project integrate with E
    critical for allowing Ember to find your relational models in the serialized JSON.
 
     
+[django]: https://github.com/django/django "Django on github"
 [django-rest-framework]: https://github.com/tomchristie/django-rest-framework "Django-Rest-Framework"
 [ember-data-django-rest-adapter]: https://github.com/toranb/ember-data-django-rest-adapter "Django-Rest-Ember-Adapter" 
 [ember]: https://github.com/emberjs/ember "Ember on Github"

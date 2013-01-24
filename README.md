@@ -27,17 +27,17 @@ back-end to handle validation, serving json, performing queries etc.
    be the model's singular or plural name depending on how many objects ember expects 
    to recieve.
     
-    * We are looking to add sideloading support to this paradigm as Ember already 
-    * supports it and has certain expectations for formatting.
+   We are looking to add sideloading support to this paradigm as Ember already 
+   supports it and has certain expectations for formatting.
 
 2. URI-based query support allowing your Ember App to construct queries of the 
    following format:
 
-   ** http://url.com/appname/api/modelname?attr1=val1,val2&attr2=val3, val4
+   http://url.com/appname/api/modelname?attr1=val1,val2&attr2=val3, val4
 
-   ** Where the query results from attr1, attr2 will be OR'ed together to form a queryset.
+   Where the query results from attr1, attr2 will be OR'ed together to form a queryset.
 
-   ** More notes on the details of this system are found below and in comments in the code.
+   More notes on the details of this system are found below and in comments in the code.
 
 # GETTING STARTED:
 
@@ -90,9 +90,4 @@ Be sure to take these steps to make your django-on-fire project integrate with E
 [ember-data]: https://github.com/emberjs/data "Ember-data on Github" 
 [steve-twitter]: http://twitter.com/stv_kn "Steve Kane"
 [pete-twitter]: http://twitter.com/chen_pete "Pete Chen"
-=======
-django-on-fire
-==============
-
-Adds Ember-style conventions to django-rest-framework views and implements URI-based Querying
 >>>>>>> d638a18d52b1f17ab8d8491032df351fe8c5a3ab

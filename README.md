@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Django-On-Fire
 ## v 0.1
 
@@ -89,3 +90,9 @@ Be sure to take these steps to make your django-on-fire project integrate with E
 [ember-data]: https://github.com/emberjs/data "Ember-data on Github" 
 [steve-twitter]: http://twitter.com/stv_kn "Steve Kane"
 [pete-twitter]: http://twitter.com/chen_pete "Pete Chen"
+=======
+django-on-fire
+==============
+
+Adds Ember-style conventions to django-rest-framework views and implements URI-based Querying
+>>>>>>> d638a18d52b1f17ab8d8491032df351fe8c5a3ab

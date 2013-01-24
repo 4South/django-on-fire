@@ -32,7 +32,7 @@ back-end to handle validation, serving json, performing queries etc.
 2. URI-based query support allowing your Ember App to construct queries of the 
    following format:
 
-   http://url.com/appname/api/modelname?attr1=val1,val2&attr2=val3, val4
+   /appname/api/modelname?attr1=val1,val2&attr2=val3,val4
 
    Where the query results from attr1, attr2 will be OR'ed together to form a queryset.
 
@@ -89,4 +89,3 @@ Be sure to take these steps to make your django-on-fire project integrate with E
 [ember-data]: https://github.com/emberjs/data "Ember-data on Github" 
 [steve-twitter]: http://twitter.com/stv_kn "Steve Kane"
 [pete-twitter]: http://twitter.com/chen_pete "Pete Chen"
->>>>>>> d638a18d52b1f17ab8d8491032df351fe8c5a3ab

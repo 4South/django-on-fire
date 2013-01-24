@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Django-On-Fire
 ## v 0.1
 
